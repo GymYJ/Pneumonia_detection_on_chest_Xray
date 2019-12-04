@@ -5,7 +5,7 @@ folder = ["train","test","val"]
 cate = ["NORMAL","PNEUMONIA"]
 for f in folder:
 
-    img_dir = "C:\\Users\\Yj\\Desktop\\project\\chest_xray\\"
+    img_dir = "C:\\Users\\YJ\\Desktop\\project\\chest_xray\\"
     img_dir = img_dir+f+"\\"
     temp = img_dir
     for c in cate:
