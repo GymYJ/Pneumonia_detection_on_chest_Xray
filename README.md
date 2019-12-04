@@ -10,9 +10,9 @@ Keras를 사용하여 CNN model로 만들었습니다.
 ### 코드 목록
 * data_preprocess.py
 
-원본 사진이 png 형식이라 사용하지 않는 alpha 값을 제거하기 위해 jpeg으로 바꾸고
+> 원본 사진이 png 형식이라 사용하지 않는 alpha 값을 제거하기 위해 jpeg으로 바꾸고
 
-사진 크기를 모델의 input 사이즈인 224\*224로 만듭니다.
+> 사진 크기를 모델의 input 사이즈인 224\*224로 만듭니다.
 
 * shuffled_data_preprocess.py
 
