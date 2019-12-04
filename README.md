@@ -23,7 +23,7 @@ Keras를 사용하여 CNN model로 만들었습니다.
 
 > 모델의 설계부터 학습, 검증까지 작성한 코드입니다.<br>
 Keras를 사용하여 CNN 모델을 만들었습니다.<br>
-구글 Colab 위에서 개발했습니다.
+구글 Colab 위에서 개발하였고, ipynb 형식이라 내부에 추가적인 설명을 넣었습니다.
 
 ## 작업환경
 Python3, Keras(tensorflow_version 1.x), Google Colab
