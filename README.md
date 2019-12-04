@@ -9,11 +9,13 @@ Keras를 사용하여 CNN model로 만들었습니다.
 
 ### 코드 목록
 * data_preprocess.py
+
 원본 사진이 png 형식이라 사용하지 않는 alpha 값을 제거하기 위해 jpeg으로 바꾸고
 
 사진 크기를 모델의 input 사이즈인 224\*224로 만듭니다.
 
 * shuffled_data_preprocess.py
+
 전체 데이터에서 폐렴과 정상의 비율을 일대일로 맞추기 위해
 
 개수가 더 많은 정상 사진들 중에서 랜덤하게 뽑습니다.
@@ -21,6 +23,7 @@ Keras를 사용하여 CNN model로 만들었습니다.
 그 후 정상과 폐렴 각각 사진들에서 20%를 test set으로 사용하기 위해 분류합니다.
 
 * Pneumonia_detection_on_chest_Xray.ipynb
+
 모델의 설계부터 학습, 검증까지 작성한 코드입니다.
 
 Keras를 사용하여 CNN 모델을 만들었습니다.
