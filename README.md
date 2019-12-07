@@ -19,11 +19,19 @@ Keras를 사용하여 CNN model로 만들었습니다.
 개수가 더 많은 정상 사진들 중에서 랜덤하게 뽑습니다.<br>
 그 후 정상과 폐렴 각각 사진들에서 20%를 test set으로 사용하기 위해 분류합니다.
 
-* Pneumonia_detection_on_chest_Xray.ipynb
+* Pneumonia_detection_on_chest_Xray(my_CNN).ipynb
 
 > 모델의 설계부터 학습, 검증까지 작성한 코드입니다.<br>
 Keras를 사용하여 CNN 모델을 만들었습니다.<br>
 구글 Colab 위에서 개발하였고, ipynb 형식이라 내부에 추가적인 설명을 넣었습니다.
+
+* Pneumonia_detection_on_chest_Xray(transfer_learning).ipynb
+
+> 전이 학습(transfer learning)을 사용하여 작성한 코드입니다.<br>
+사용한 모델은 VGG16, Inception V3, ResNet50 입니다.<br>
+Keras를 사용하여 CNN 모델을 만들었습니다.<br>
+구글 Colab 위에서 개발하였고, ipynb 형식이라 내부에 추가적인 설명을 넣었습니다.
+
 
 ## 작업환경
 Python3, Keras(tensorflow_version 1.x), Google Colab
